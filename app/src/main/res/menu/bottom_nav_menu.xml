@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:id="@+id/todayWeatherFragment"
+    android:title="Today"
+    android:icon="@drawable/ic_baseline_today_24"
+    app:showAsAction="collapseActionView"/>
+
+    <item android:id="@+id/savenDaysForeCastFragment"
+        android:title="7 Days ForCast"
+        android:icon="@drawable/ic_baseline_calendar_today_24"
+        app:showAsAction="collapseActionView"/>
+    <item android:id="@+id/settingsFragment"
+        android:title="Settings"
+        android:icon="@drawable/ic_baseline_settings_24"
+        app:showAsAction="collapseActionView"/>
+</menu>
